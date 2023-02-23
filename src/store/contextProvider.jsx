@@ -1,3 +1,4 @@
+// IMPORTANT FILE TO REVESION IT
 import { useReducer } from "react";
 import context from "./cart-context";
 
@@ -59,6 +60,8 @@ const stateReducer = (state, action) => {
     };
   }
 
+  if (action.type === "CLEAR") return defaultState;
+
   return defaultState;
 };
 
@@ -71,11 +74,14 @@ const ContextProvider = (props) => {
   const removeFromItemsHandler = (id) =>
     dispatchState({ type: "REMOVE", id: id });
 
+  const clearItemsHandler = () => dispatchState({ type: "CLEAR" });
+
   const contextValue = {
     items: changeState.items,
     totalAmount: changeState.totalAmount,
     addItem: addToItemsHandler,
     removeItem: removeFromItemsHandler,
+    clearItems: clearItemsHandler,
   };
 
   return (

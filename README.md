@@ -16,6 +16,7 @@ simple react app to practice.
 </ul>
 
 <h2 id="preview">Preview</h2>
+<h3>Live Preview: https://food-order--react.vercel.app/</h3>
 
 <div style="display: flex">
   <img style="width: 49%" src="https://user-images.githubusercontent.com/74501165/220870222-6cfe6570-ada1-47ab-9ce6-8f3de4f35661.png" alt="Preview">
@@ -31,3 +32,6 @@ simple react app to practice.
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![Firebase](https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=Firebase&logoColor=white)
 ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+
+### Live preview by using:<br>
+![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
